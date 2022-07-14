@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE</title>
+    <link rel="stylesheet" href="./codeathon_event_form.css">
+</head>
+<style>
+    em{
+    color: white;
+    font-weight: bold;
+}
+    strong{
+    color: rgb(68, 68, 192);
+    font: bold;
+}
+
+</style>
+<body>
+    <div id="line">
+        <ul><li id="firstline">KODEATHON</li>
+            <li>
+              <a href="#home"> <button id="buttons">HOME</button></a>
+            </li>
+            <li>
+              <a href="#about"> <button id="buttons">ABOUT</button></a>
+            </li>
+            <li>
+              <a href="#awards"> <button id="buttons" >AWARDS</button></a>
+            </li>
+            <li>
+              <a href="#register"> <strong><button id="register-btn" style="color:blue">REGISTER</button></strong></a>
+            </li>
+            <li>
+              <a href="#contact"> <button id="buttons">CONTACT</button></a>
+            </li>
+        </ul>
+    </div>
+<div id="home">
+        <svg id="image1"><img src="images/undraw2.svg" alt="image 1"></svg>
+        <p id="topic">LET'S <em>CODE </em> -A-TON  <em style="color: white;">!</em></p>
+</div>
+    <b id="about"></b>
+    <div id="aboutblock">
+        <svg><img src="images/undraw3.svg" alt="image 2"></svg>
+            <p id="quote">SIMPLICITY</p>
+            <p id="quote1" style="color: rgb(97, 97, 220);">is the key to</p>
+            <p id="quote2">EFFICIENCY...</p>
+            <p id="abouttitle">ABOUT</p>
+        <center>
+            <p id="abouts">
+                A Paragraph is a series of sentences that are organized and coherent , and are all related to a single topic. Almost every pieces of writing you do that is longer than a few sentences should be organizd into paragraphs.
+            </p>
+        </center>
+    </div>
+    <h1 id="awards"></h1>
+    <div id="award" >
+        <p id="prizetitle">PRIZES AND AWARDS</p>
+        <svg>
+            <img src="images/undraw1.svg" alt="image 3" id="image3" >
+            <img src="images/undraw6.svg" alt="image4" id="image4">
+        </svg>
+        <div id="prizes">
+            <p>Cash Prize Worth  xxxxx ₹</p>
+            <p>A Coffee Mug</p>
+            <p>A T-Shirt</p>
+            <p>A Key-Chain</p>
+        </div>
+        <p id="para">Top <strong>five</strong> participants from the final round will get the chance to get internship of 2 months <strong>"kreativ"</strong></p></p>
+    </div>
+    <h1 id="register"></h1>
+    <div id="registerblock">
+        <svg>
+            <img src="images/undraw8.svg" alt="image5" id="image5">
+            <img src="images/undraw7.svg" alt="image6" id="image6">
+        </svg>
+        <div id="reg_form">
+            <form action="">
+              <label for="firstname" id="labelname">NAME :</label>
+              <input
+                type="text"
+                name="name"
+                placeholder="   ENTER THE NAME  "
+                required 
+                id="inputname"/>
+                <div>
+                    <label for="" id="labelname">AGE :</label>
+                    <input type="" name="age" placeholder="   ENTER THE AGE  " id="inputage" />
+                </div>
+                <div>
+                    <label for="" id="labelname">EMAIL ID :</label>
+                    <input type="email" placeholder="   XYZ@gmail.com"  id="inputemail"/>
+                </div>
+                <div>
+                    <label for="" id="labelname">PHONE :</label>
+                    <input type="tel" id="inputnum" required>
+                </div>
+            
+                <div>
+                    <label for="" id="labelname">COLLEGE :</label>
+                    <input type="college" id="inputclg" required/>
+                </div>
+                <div>
+                    <label for="" id="labelname">ADDRESS :</label>
+                    <input type="address" id="inputadd" required />
+                </div>
+                <div>
+                    <label for="" id="labelname">PINCODE :</label>
+                    <input type="text" id="inputcode" >
+                </div>
+                <div>
+                  <button value="" id="submit">REGISTER</button>
+                </div>  
+            </form>
+        </div>
+    </div>
+</body>  
+</html>

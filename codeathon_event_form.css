@@ -1,0 +1,320 @@
+body{
+    background-color: #202020;
+    font-size: 45px;
+    height: 500vh;
+    font-family: 'Exo';
+}
+#image1{
+    position: absolute;
+    left: 55%;
+}
+#aboutblock{
+    position: absolute;
+    left: -18%;
+    top: 161%;
+}
+#award{
+    position: absolute;
+    top: 263%;
+    left: -17%;
+}
+#firstline{
+    position: relative;
+    top: 16px;
+    right: 0;
+    color: blue;
+}
+ul li {
+    position: relative;
+    top: 10px;
+    right: -330px;
+    display: inline;
+    margin-right: 20px;
+    font-size: 55px;
+}
+#line{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 3%;
+    background-color: #202020;
+}
+#topic{
+    position: absolute;
+    top: 350px;
+    right: 300px;
+    color: blue;
+    display: inline;
+}
+#quote{
+    color: white;
+    position: absolute;
+    top: -59%;
+    left: 37%;
+}
+#quote1{
+    font-size: xx-large;
+    position: absolute;
+    top: -43%;
+    left: 48%;
+    font-family: 'Exo';
+}
+#quote2{
+    color: white;
+    position: absolute;
+    top: -31%;
+    left: 53%;
+}
+#abouttitle{
+    color: blueviolet;
+    position: absolute;
+    top: -36%;
+    right: -37%;
+}
+#abouts{
+    color: white;
+    position: absolute;
+    left: 107%;
+    width: 45%;
+    top: -11%;
+    font-size: 35px;
+}
+#prizetitle{
+    position: absolute;
+    top: -72%;
+    left: 108%;
+    color: white;
+    width: 250%;
+}
+#image3{
+    position: absolute;
+    top: 20%;
+    left: 132%;
+    width: 250px;
+    height: 250px;
+}
+#prizes{
+    display: block;
+    position: absolute;
+    top: 148%;
+    left: 147%;
+    width: 200%;
+    color: white;
+    font-size: x-large;
+}
+#image4{
+    position: absolute;
+    top: 20%;
+    left: 346%;
+    width: 250px;
+    height: 250px;
+}
+#para{
+    position: absolute;
+    top: 150%;
+    left: 319%;
+    width: 450px;
+    font-size: xx-large;
+    color: white;
+}
+#image5{
+    position: absolute;
+    top: 387%;
+    left: 81px;
+    /* background-color: white; */
+    width: 28%;
+    height: 81%;
+}
+#image6{
+    position: absolute;
+    top: 366%;
+    left: 10%;
+    width: 46%;
+}
+#reg_form{
+    position: absolute;
+    top: 372%;
+    left: 60%;
+    color: white;
+}
+#inputname{
+    position: absolute;
+    top: 5%;
+    left: 114%;
+    width: 185%;
+    height: 6%;
+    /* border-bottom-color: blueviolet; */
+}
+#inputage{
+    position: absolute;
+    top: 20%;
+    left: 114%;
+    width: 185%;
+    height: 6%;
+}
+
+#inputemail{
+    position: absolute;
+    top: 34%;
+    left: 114%;
+    width: 185%;
+    height: 6%;
+}
+#inputnum{
+    position: absolute;
+    top: 48%;
+    left: 114%;
+    width: 185%;
+    height: 6%
+}
+#inputclg{
+    position: absolute;
+    top: 62%;
+    left: 114%;
+    width: 185%;
+    height: 6%
+}
+#inputadd{
+    position: absolute;
+    top: 77%;
+    left: 114%;
+    width: 185%;
+    height: 6%
+}
+#inputcode{
+    position: absolute;
+    top: 91%;
+    left: 114%;
+    width: 185%;
+    height: 6%
+}
+#labelname{
+    font-style: oblique;
+    font-size: 58%;
+
+}
+#submit{
+    color: rgb(203, 209, 215);
+    font-size: 27px;
+    background-color: rgb(78, 78, 168);
+    border-radius: 18%;
+    position: absolute;
+    top: 115%;
+    left: 174%;
+    padding: 11px;
+}
+button:link{
+    color: skyblue;
+}
+button:visited{
+    color: rgb(209, 200, 80);
+}
+button:active{
+    color: green;
+}
+button{
+    border: none;
+    background-color: inherit;
+    font-weight: bold;
+    font-size: large;
+}
+
+#register-btn{
+    color: blue;
+}
+#register-btn {
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  #register-btn {
+    background: transparent;
+    padding: 12px 24px;
+    position: relative;
+    z-index: 5;
+  }
+  
+  #register-btn:before {
+    transition: all 0.8s cubic-bezier(0.7, -0.5, 0.2, 2);
+    content: '';
+    width: 2%;
+    height: 100%;
+    background: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  #register-btn span {
+    mix-blend-mode: darken;
+  }
+  
+  #register-btn:hover:before {
+    background: blue;
+    width: 92%;
+    border-radius: 50px;
+    opacity: .5;
+  }  
+
+  #buttons {
+    
+    border-left: solid ;
+    border-color: blue;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    outline: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+  
+  #buttons::before, #buttons::after {
+    box-sizing: inherit;
+    position: absolute;
+    content: '';
+    border: 2px solid transparent;
+    width: 0;
+    height: 0;
+  }
+  
+  #buttons::after {
+    bottom: 0;
+    right: 0;
+  }
+  
+  #buttons::before {
+    top: 0;
+    left: 0;
+  }
+  
+  #buttons:hover::before, #buttons:hover::after {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #buttons:hover::before {
+    border-top-color: blue;
+    border-right-color: blue;
+    transition: width 0.3s ease-out, height 0.3s ease-out 0.3s;
+  }
+  
+  #buttons:hover::after {
+    border-bottom-color: blue;
+    border-left-color: blue;
+    transition: border-color 0s ease-out 0.6s, width 0.3s ease-out 0.6s, height 0.3s ease-out 1s;
+  }
+#register{
+    position: absolute;
+    top: 334%;
+    left: 5%;
+}
+#awards{
+    position: absolute;
+    top: 221%;
+    left: 1%;
+}
+#submit:hover{  
+    background-color: rgb(63, 225, 63);
+    
+}
