@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEBSITE</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./codeathon_event_form.css">
 </head>
 <style>
-    #myBtn {
+  #myBtn {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -24,10 +24,12 @@
     border-radius: 10px;
   }
 
-  #myBtn:hover {
-    background-color: rgb(2, 53, 19);
+#myBtn:hover {
+    background-color:white;
+    font-size: 25px;
+    color: crimson;
   }
-    em{
+   em{
     color: white;
     font-weight: bold;
 }
@@ -38,7 +40,7 @@
 
 </style>
 <body>
-    <a onclick="topFunction()" id="myBtn" title="Go to top">Top</a>
+  <a onclick="topFunction()" id="myBtn" title="Go to top">Top</a>
     <div id="line">
         <ul><li id="firstline">KODEATHON</li>
             <li>
@@ -97,70 +99,49 @@
             <img src="images/undraw7.svg" alt="image6" id="image6">
         </svg>
         <div id="reg_form">
-            <form action="">
+            <form method= 'POST' action="" id="reg-formpage" name="page">
               <label for="firstname" id="labelname">NAME :</label>
               <input
                 type="text"
-                name="name"
+                name="Name"
                 placeholder="   ENTER THE NAME  "
                 required 
                 id="inputname"/>
                 <div>
                     <label for="" id="labelname">AGE :</label>
-                    <input type="" name="age" placeholder="   ENTER THE AGE  " id="inputage" />
+                    <input type="" name="Age" placeholder="   ENTER THE AGE  " id="inputage" />
                 </div>
                 <div>
                     <label for="" id="labelname">EMAIL ID :</label>
-                    <input type="email" placeholder="   XYZ@gmail.com"  id="inputemail"/>
+                    <input type="email" name='E-mail' placeholder="   XYZ@gmail.com"  id="inputemail"/>
                 </div>
                 <div>
                     <label for="" id="labelname">PHONE :</label>
-                    <input type="tel" id="inputnum" required>
+                    <input type="tel" name= 'PH-Num' id="inputnum" required>
                 </div>
             
                 <div>
                     <label for="" id="labelname">COLLEGE :</label>
-                    <input type="college" id="inputclg" required/>
+                    <input type="college" name="CLG-Name" id="inputclg" required/>
                 </div>
                 <div>
                     <label for="" id="labelname">ADDRESS :</label>
-                    <input type="address" id="inputadd" required />
+                    <input type="address" name='Address' id="inputadd" required />
                 </div>
                 <div>
                     <label for="" id="labelname">PINCODE :</label>
-                    <input type="text" id="inputcode" >
+                    <input type="text" name="Pincode" id="inputcode" >
                 </div>
                 <div>
-                  <button value="" id="submit">REGISTER</button>
+                  <button type="submit" value="sending" id="submit">REGISTER</button>
                 </div>  
             </form>
         </div>
     </div>
-        <script>
-      //Get the button
-      var mybutton = document.getElementById("myBtn");
+    <script  src="main.js" >
     
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () {
-        scrollFunction();
-      };
-    
-      function scrollFunction() {
-        if (
-          document.body.scrollTop > 15 ||
-          document.documentElement.scrollTop > 15
-        ) {
-          mybutton.style.display = "block";
-        } else {
-          mybutton.style.display = "none";
-        }
-      }
-    
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
     </script>
+    
 </body>  
 </html>
+
